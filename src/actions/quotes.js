@@ -1,6 +1,5 @@
-function addQuote(quote) {
+function addQuote() {
   return {
     type: 'ADD_QUOTE',
-    quote: quote
   }
 }
