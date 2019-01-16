@@ -1,5 +1,6 @@
-function addQuote() {
+export const addQuote = quote => {
   return {
-    type: 'ADD_QUOTE'
+    type: 'ADD_QUOTE',
+    quote
   }
 }
