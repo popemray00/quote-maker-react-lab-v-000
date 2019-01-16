@@ -1,6 +1,6 @@
 function addQuote(quote) {
   return {
-    type: 'ADD_TODO',
+    type: 'ADD_QUOTE',
     quote: quote
   }
 }
