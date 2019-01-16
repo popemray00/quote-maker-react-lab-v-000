@@ -4,3 +4,11 @@ export const addQuote = quote => {
     quote
   }
 }
+
+export const removeQuote = quoteId => {
+  return {
+    type: 'REMOVE_QUOTE',
+    quote
+  }
+}
+
